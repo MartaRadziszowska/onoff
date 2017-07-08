@@ -24,12 +24,15 @@
     "favicon": "",
     "noImageResize": "",
     "versionFirst": "3.12.1",
-    "uniqCompNum": 75,
+    "uniqCompNum": 76,
     "versionPublish": "3.12.1",
     "path": "@PROJECT_PATH@",
     "cookiesAlert": "We use cookies to give you the best experience. Read our <a href='privacy.html'>cookie policy</a>.",
     "google-analytics": "",
-    "screenshot": "screenshot.png"
+    "screenshot": "screenshot.png",
+    "publishFtpPath": "public_html",
+    "publishType": "local",
+    "publishPath": "file:///C:/tmp/tmp"
   },
   "pages": {
     "index.html": {
@@ -136,8 +139,8 @@
           "_name": "image2",
           "_anchor": "image2-8",
           "_params": {
-            "paddingTop": "4",
-            "paddingBottom": "0",
+            "paddingTop": "6",
+            "paddingBottom": "1",
             "bgColor": "#ffffff",
             "showText": false
           },
@@ -282,7 +285,7 @@
             "showMeta": true
           },
           "title": "",
-          "meta": "<span style=\"font-style: normal;\"><b>&nbsp;15 IX (piątek) &nbsp; &nbsp;-</b></span><span style=\"font-style: normal;\"><b>&nbsp; &nbsp; 17 IX (niedziela)&nbsp;</b></span><span style=\"font-style: normal;\"><b><br><br></b></span><span style=\"font-style: normal;\">Dom rekolekcyjny Maksymilianum Bystra Podhalańska</span><span style=\"font-style: normal;\"><br></span><b style=\"font-style: normal;\">Bystra 278</b>"
+          "meta": "<span style=\"font-style: normal;\"><b>&nbsp;15 IX -</b></span><span style=\"font-style: normal;\"><b>&nbsp;17 IX <br>piętek - niedziela</b></span><span style=\"font-style: normal;\"><b><br><br></b></span><span style=\"font-style: normal;\">Dom Rekolekcyjny <b>Maksymilianum</b> <br><b>Bystra Podhalańska</b></span><span style=\"font-style: normal;\"><br></span><b style=\"font-style: normal;\">Bystra 278</b>"
         },
         {
           "_tags": [
@@ -292,8 +295,8 @@
           "_anchor": "map1-15",
           "_params": {
             "googleMap": {
-              "address": "bystra 278 ",
-              "placeId": "ChIJz4iCpUB2FkcRdhS7JAu0dJM",
+              "address": "bystra 278  \nbystra podhalanska \npl",
+              "placeId": "ChIJ3VOFVT92FkcRvSDXMuGnL8s",
               "state": "ok",
               "stateDetails": ""
             }
@@ -353,7 +356,7 @@
             "showButton": true
           },
           "title": "Dla kogo",
-          "text": "<p><b>Dla Ciebie!<br></b><span style=\"line-height: 1.5;\">Jesteś młody, studiujesz, pracujesz, niedawno wyszłaś za mąż,<br></span><span style=\"line-height: 1.5;\">ożeniłeś się, jeszcze nie podjąłeś decyzji o przyszłości, wciąż czekasz na tego jedynego/jedyną? Twoje życie świetnie się układa albo jesteś w całkowitej rozsypce - bez względu na Twoją sytuację jesteś zaproszony by (po raz kolejny) odkryć, że</span></p><p><b style=\"line-height: 1.5;\">Bóg JEST!</b></p>",
+          "text": "<p><b>Dla Ciebie!<br></b><span style=\"line-height: 1.5;\">Jesteś młody, studiujesz, pracujesz, niedawno wyszłaś za mąż,<br></span><span style=\"line-height: 1.5;\">ożeniłeś się, jeszcze nie podjąłeś decyzji o przyszłości, wciąż czekasz na tego jedynego/jedyną? Twoje życie świetnie się układa albo jesteś w całkowitej rozsypce - bez względu na Twoją sytuację jesteś zaproszony by <br>(po raz kolejny) doświadczyć&nbsp;</span><b style=\"line-height: 1.5;\">Bożej Miłości!</b></p>",
           "button": "<a data-app-btn=\"true\" class=\"btn btn-success\" href=\"index.html#header3-21\" data-toolbar=\"-mbrBtnMove\">ZAPISZ SIĘ</a>"
         },
         {
@@ -551,21 +554,6 @@
             "Theme"
           ],
           "_name": "testimonials1",
-          "_styles": {
-            ".mbr-section-title": {
-              "color": "#b8312f",
-              "font-family": "'Indie Flower', cursive",
-              "googleLink": "https://fonts.googleapis.com/css?family=Indie+Flower"
-            },
-            ".card-block P": {
-              "color": "#232323",
-              "font-size": "13px"
-            },
-            ".card-block DIV": {
-              "color": "#232323",
-              "font-size": "13px"
-            }
-          },
           "testimonial": [
             {
               "text": "Piątek (15 IX)<div><br></div><div>18:00 - 18:30 Kolacja</div><div>19:30 - 20:15 Zawiązanie Wspólnoty</div><div>20:15 - 21:15 Konferencja i Adoracja</div><div>21:30 - 22:00 Eucharystia (dla chętnych)</div>",
@@ -630,7 +618,12 @@
             "showSubtitle": false
           },
           "title": "Program<br>",
-          "subtitle": "Shape your future web project with sharp design and refine coded functions."
+          "subtitle": "Shape your future web project with sharp design and refine coded functions.",
+          "_customCSS": "@import url(https://fonts.googleapis.com/css?family=Indie+Flower);\n.mbr-section-title {\n\tcolor: #b8312f;\n\tfont-family: 'Indie Flower', cursive;\n}\n.card-block P {\n\tcolor: #232323;\n\tfont-size: 13px;\n}\n.card-block DIV {\n\tcolor: #232323;\n\tfont-size: 15px;\n}\n",
+          "_customHTML": "<section class=\"mbr-section\" style=\"background-color: rgb(255, 255, 255); padding-top: 80px; padding-bottom: 40px;\">\n\n    \n\n        <div class=\"mbr-section mbr-section__container mbr-section__container--middle\">\n            <div class=\"container\">\n                <div class=\"row\">\n                    <div class=\"col-xs-12 text-xs-center\">\n                        <h3 class=\"mbr-section-title display-2 mbr-editable-content\" code-editable-id=\"75\">Program<br></h3>\n                        \n                    </div>\n                </div>\n            </div>\n        </div>\n\n\n    <div class=\"mbr-testimonials mbr-section mbr-section-nopadding\">\n        <div class=\"container\">\n            <div class=\"row\">\n\n                <div class=\"col-xs-12 col-lg-4\">\n\n                    <div class=\"mbr-testimonial card\">\n                        <div class=\"card-block mbr-editable-content\" code-editable-id=\"76\">Piątek (15 IX)<div><br></div><div>18:00 - 18:30 Kolacja</div><div>19:30 - 20:15 Zawiązanie Wspólnoty</div><div>20:15 - 21:15 Konferencja i Adoracja</div><div>21:30 - 22:00 Eucharystia (dla chętnych)</div></div>\n                        <div class=\"mbr-author card-footer\">\n                            \n                            \n                            \n                        </div>\n                    </div>\n                </div><div class=\"col-xs-12 col-lg-4\">\n\n                    <div class=\"mbr-testimonial card\">\n                        <div class=\"card-block mbr-editable-content\" code-editable-id=\"77\">Sobota (16 IX)<div><br></div><div>7:30 - 8:00 Modlitwa Poranna</div><div>8:00 - 8:30 Śniadanie</div><div>8:30 - 12:00 Blok przedpołudniowy</div><div>12:00 - 13:30 Eucharystia</div><div>13:30 - 14:00 Obiad</div><div>13:30 - 21:30 Blok popołudniowy</div><div>18:00 - 18:30 Kolacja</div><div>18:30 - 21:30 Blok wieczorny</div></div>\n                        <div class=\"mbr-author card-footer\">\n                            \n                            \n                            \n                        </div>\n                    </div>\n                </div><div class=\"col-xs-12 col-lg-4\">\n\n                    <div class=\"mbr-testimonial card\">\n                        <div class=\"card-block mbr-editable-content\" code-editable-id=\"78\">Niedziela (17 IX)<div><br></div><div>7:30 - 8:00 Modlitwa Poranna&nbsp;</div><div>8:00 - 8:30 Śniadanie</div><div>8:00 - 12:00 Blok przedpołudniowy</div><div>12:00 - 13:30 Eucharystia</div><div>13:30  - 14:00 Obiad</div></div>\n                        <div class=\"mbr-author card-footer\">\n                            \n                            \n                            \n                        </div>\n                    </div>\n                </div>\n\n            </div>\n\n        </div>\n\n    </div>\n\n</section>",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_customTemplate": true
         },
         {
           "_tags": [
@@ -649,34 +642,6 @@
           "_tags": [
             "Theme"
           ],
-          "_name": "content1",
-          "_anchor": "content1-22",
-          "_params": {
-            "paddingTop": 1,
-            "paddingBottom": 1,
-            "bgColor": "#fff"
-          },
-          "text": "Opłata za rekolekcje wynosi 140 zł od osoby&nbsp;",
-          "_styles": {
-            "DIV": {
-              "text-align": "center"
-            }
-          }
-        },
-        {
-          "_styles": {
-            ".mbr-section-title, .mbr-section-subtitle": {
-              "text-align": "center"
-            },
-            "H3": {
-              "color": "#b8312f",
-              "font-family": "'Indie Flower', cursive",
-              "googleLink": "https://fonts.googleapis.com/css?family=Indie+Flower"
-            }
-          },
-          "_tags": [
-            "Theme"
-          ],
           "_name": "header3",
           "_anchor": "header3-21",
           "_params": {
@@ -686,27 +651,46 @@
             "showMeta": false
           },
           "title": "Zapisy",
-          "meta": "By John Smith posted July 20, 2016"
+          "meta": "By John Smith posted July 20, 2016",
+          "_customHTML": "<section class=\"mbr-section mbr-section__container article\" style=\"background-color: rgb(255, 255, 255); padding-top: 20px; padding-bottom: 20px;\">\n    <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"col-xs-12\">\n                <h3 class=\"mbr-section-title display-2 mbr-editable-content\" code-editable-id=\"70\">Zapisy</h3>\n                \n            </div>\n        </div>\n    </div>\n</section>",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_customCSS": "@import url(https://fonts.googleapis.com/css?family=Indie+Flower);\n.mbr-section-title, .mbr-section-subtitle {\n\ttext-align: center;\n}\nH3 {\n\tcolor: #b8312f;\n\tfont-family: 'Indie Flower', cursive;\n}\n",
+          "_customTemplate": true
         },
         {
-          "_styles": {
-            ".mbr-section-title, .mbr-section-subtitle": {
-              "text-align": "center"
-            }
-          },
           "_tags": [
             "Theme"
           ],
-          "_name": "header3",
-          "_anchor": "header3-20",
+          "_name": "content1",
+          "_styles": {
+            "DIV": {
+              "text-align": "center"
+            }
+          },
+          "_anchor": "content1-22",
           "_params": {
             "paddingTop": 1,
             "paddingBottom": 1,
-            "bgColor": "#fff",
-            "showMeta": false
+            "bgColor": "#fff"
           },
-          "title": "FORMULARZ",
-          "meta": "By John Smith posted July 20, 2016"
+          "text": "<p><b>Opłata za rekolekcje wynosi 140 zł od osoby.</b> <br>Jeśli brak środków finansowych miłaby by być przeszkodą w uczestnictwie prosimy o kontakt.</p><p><br></p><p><span style=\"font-size: 1.07rem; line-height: 1.5;\"><b>Prosimy o wpłatę zaliczki w wysokości 50 zł -</b> <br>Wpłata zaliczki jest potwierdzeniem woli uczestniczenia w rekolekcjach.</span></p><p><span style=\"font-size: 1.07rem; line-height: 1.5;\"><br></span></p><p><span style=\"font-size: 1.07rem; line-height: 1.5;\">Diakonia Ruchu Światło-Życie Archidiecezji Krakowskiej”</span><br></p><p>\u001bNumer konta: 84 1060 0076 0000 3280 0004 0146</p><p>Tytułem: zaliczka na Rekolekcje On / Off, imię i nazwisko.<br></p><p><span style=\"font-size: 1.07rem; line-height: 1.5;\">Zgłoszenia bez wpłaty nie gwarantują miejsca na liście uczestników.</span><br></p><p><br></p>"
+        },
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<section class=\"mbr-section mbr-section__container article\" style=\"background-color: rgb(255, 255, 255); padding-top: 20px; padding-bottom: 20px;\">\n    <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"col-xs-12\" style=\"text-align: center\">\n\n                \n                <a class=\"typeform-share button\" href=\"https://ecclesiaeit.typeform.com/to/XgaoD7\" data-mode=\"popup\" style=\"display:inline-block;text-decoration:none;background-color:#13992f;color:white;cursor:pointer;font-family:Helvetica,Arial,sans-serif;font-size:20px;line-height:50px;text-align:center;margin:0;height:50px;padding:0px 33px;border-radius:25px;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-weight:bold;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;\" data-hide-headers=\"true\" data-hide-footer=\"true\" target=\"_blank\">Chcę uczestniczyć!</a> {JS_CODE_0}\n                \n            </div>\n        </div>\n    </div>\n</section>\n\n",
+          "_customCSS": "/* Type valid CSS here */\n.my-image {\n  width: 100%;\n}",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_anchor": "custom-html-23",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [
+            "<script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id=\"typef_orm_share\", b=\"https://embed.typeform.com/\"; if(!gi.call(d,id)){ js=ce.call(d,\"script\"); js.id=id; js.src=b+\"embed.js\"; q=gt.call(d,\"script\")[0]; q.parentNode.insertBefore(js,q) } })() </script>"
+          ]
         },
         {
           "_styles": {
@@ -738,11 +722,6 @@
             "Theme"
           ],
           "_name": "features3",
-          "_styles": {
-            "H4": {
-              "color": "#28324e"
-            }
-          },
           "_anchor": "features3-12",
           "_params": {
             "paddingTop": "0",
@@ -857,7 +836,12 @@
           "title6": "Host Anywhere",
           "subtitle6": "Don't limit yourself to just one platform",
           "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
-          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>"
+          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "_customHTML": "<section class=\"mbr-cards mbr-section mbr-section-nopadding\" style=\"background-color: rgb(255, 255, 255);\">\n\n     \n\n    <div class=\"mbr-cards-row row\">\n        <div class=\"mbr-cards-col col-xs-12 col-lg-3\" style=\"padding-top: 0px; padding-bottom: 80px;\">\n            <div class=\"container\">\n              <div class=\"card cart-block\">\n                  <div class=\"card-img\"><img height=\"200px\" src=\"@PROJECT_PATH@/assets/images/foska-600x594.png\" class=\"card-img-top\"></div>\n                  <div class=\"card-block\">\n                    <h4 class=\"card-title mbr-editable-content\" code-editable-id=\"56\"><a href=\"http://krakow.oaza.pl/\" target=\"_blank\">Ruch Swiatło-Życie</a></h4>\n                    \n                    \n                    \n                    </div>\n                </div>\n            </div>\n        </div>\n        <div class=\"mbr-cards-col col-xs-12 col-lg-3\" style=\"padding-top: 0px; padding-bottom: 80px;\">\n            <div class=\"container\">\n                <div class=\"card cart-block\">\n                    <div class=\"card-img\"><img height=\"200px\" src=\"@PROJECT_PATH@/assets/images/diakonia-ewangelizacji.gif\" class=\"card-img-top\"></div>\n                    <div class=\"card-block\">\n                        <h4 class=\"card-title mbr-editable-content\" code-editable-id=\"57\"><a href=\"https://www.facebook.com/ddekrk/\" target=\"_blank\">Diakonia Ewangelizacji</a></h4>\n                        \n                        \n                        \n                    </div>\n                </div>\n            </div>\n        </div>\n        <div class=\"mbr-cards-col col-xs-12 col-lg-3\" style=\"padding-top: 0px; padding-bottom: 80px;\">\n            <div class=\"container\">\n                <div class=\"card cart-block\">\n                    <div class=\"card-img\"><img height=\"200px\" src=\"@PROJECT_PATH@/assets/images/diakona-modlitwy-600x600.png\" class=\"card-img-top\"></div>\n                    <div class=\"card-block\">\n                        <h4 class=\"card-title mbr-editable-content\" code-editable-id=\"58\"><a href=\"https://www.facebook.com/ddmodlitwy/?fref=ts\" target=\"_blank\">Diakonia Modlitwy</a></h4>\n                        \n                        \n                        \n                    </div>\n                </div>\n            </div>\n        </div>\n        <div class=\"mbr-cards-col col-xs-12 col-lg-3\" style=\"padding-top: 0px; padding-bottom: 80px;\">\n            <div class=\"container\">\n                <div class=\"card cart-block\">\n                    <div class=\"card-img\"><img height=\"200px\" src=\"@PROJECT_PATH@/assets/images/toungtree-600x600.png\" class=\"card-img-top\"></div>\n                    <div class=\"card-block\">\n                        <h4 class=\"card-title mbr-editable-content\" code-editable-id=\"59\"><a href=\"https://www.youngtree.eu/\" target=\"_blank\">YoungTree.eu</a></h4>\n                        \n                        \n                        \n                    </div>\n                </div>\n            </div>\n        </div>\n        \n        \n    </div>\n</section>",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_customCSS": "H4 {\n\tcolor: #28324e;\n}\ncad-img {\n    \n}\n",
+          "_customTemplate": true
         },
         {
           "_tags": [
