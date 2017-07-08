@@ -32,7 +32,7 @@
     "screenshot": "screenshot.png",
     "publishFtpPath": "public_html",
     "publishType": "local",
-    "publishPath": "file:///C:/tmp/tmp"
+    "publishPath": "file:///C:/Users/radzisz/dominik@radzisz.com/sitesToDeploy/www.onoff.live"
   },
   "pages": {
     "index.html": {
@@ -147,7 +147,7 @@
           "media": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/totennastowe-1400x323.png",
+              "src": "@PROJECT_PATH@/assets/images/przyciskztekstem-1400x583.png",
               "width": 1400,
               "link": "",
               "alt": "",
@@ -159,31 +159,6 @@
             }
           },
           "text": "ome mobile-friendly websites. No coding and free."
-        },
-        {
-          "_styles": {
-            ".mbr-section-title, .mbr-section-subtitle": {
-              "text-align": "center"
-            },
-            "H3": {
-              "font-family": "'PT Serif', serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700,700i",
-              "color": "#b8312f"
-            }
-          },
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "header3",
-          "_anchor": "header3-1z",
-          "_params": {
-            "paddingTop": 1,
-            "paddingBottom": 1,
-            "bgColor": "#fff",
-            "showMeta": false
-          },
-          "title": "Dobry czas - włączamy pełnię życia!",
-          "meta": "By John Smith posted July 20, 2016"
         },
         {
           "_tags": [
@@ -285,7 +260,7 @@
             "showMeta": true
           },
           "title": "",
-          "meta": "<span style=\"font-style: normal;\"><b>&nbsp;15 IX -</b></span><span style=\"font-style: normal;\"><b>&nbsp;17 IX <br>piętek - niedziela</b></span><span style=\"font-style: normal;\"><b><br><br></b></span><span style=\"font-style: normal;\">Dom Rekolekcyjny <b>Maksymilianum</b> <br><b>Bystra Podhalańska</b></span><span style=\"font-style: normal;\"><br></span><b style=\"font-style: normal;\">Bystra 278</b>"
+          "meta": "<span style=\"font-style: normal;\"><b>&nbsp;15 IX -</b></span><span style=\"font-style: normal;\"><b>&nbsp;17 IX 2017<br>piątek - niedziela</b></span><span style=\"font-style: normal;\"><b><br><br></b></span><span style=\"font-style: normal;\"><b>Dom Rekolekcyjny Maksymilianum </b><br><b>Bystra Podhalańska</b></span><span style=\"font-style: normal;\"><br></span><b style=\"font-style: normal;\">Bystra 278</b>"
         },
         {
           "_tags": [
@@ -636,7 +611,7 @@
             "paddingBottom": "2",
             "bgColor": "#fff"
           },
-          "buttons": " <a data-app-btn=\"true\" class=\"btn btn-black btn-black-outline\" href=\"https://mobirise.com/mobirise-free-mac.zip\" data-toolbar=\"-mbrBtnMove\">POBIERZ SZCZEGÓŁOWY PLAN</a>"
+          "buttons": " <a data-app-btn=\"true\" class=\"btn btn-black btn-black-outline\" href=\"downloads/program.pdf\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">POBIERZ SZCZEGÓŁOWY PLAN</a>"
         },
         {
           "_tags": [
