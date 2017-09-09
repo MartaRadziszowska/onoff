@@ -260,7 +260,7 @@
             "showMeta": true
           },
           "title": "",
-          "meta": "<span style=\"font-style: normal;\"><b>&nbsp;15 IX -</b></span><span style=\"font-style: normal;\"><b>&nbsp;17 IX 2017<br>piątek - niedziela</b></span><span style=\"font-style: normal;\"><b><br><br></b></span><span style=\"font-style: normal;\"><b>Dom Rekolekcyjny Maksymilianum </b><br><b>Bystra Podhalańska</b></span><span style=\"font-style: normal;\"><br></span><b style=\"font-style: normal;\">Bystra 278</b>"
+          "meta": "<span style=\"font-style: normal;\"><b>&nbsp;</b></span><span style=\"font-style: normal;\"><b>16 IX 2017<br>sobota</b></span><span style=\"font-style: normal;\"><b><br><br></b></span><span style=\"font-style: normal;\"><b>Seminarium Ojców Reformatów</b><br><b>ul. Ojcowska 1</b></span><span style=\"font-style: normal;\"><br></span><b style=\"font-style: normal;\">Kraków - Bronowice Wielkie</b>"
         },
         {
           "_tags": [
@@ -270,8 +270,8 @@
           "_anchor": "map1-15",
           "_params": {
             "googleMap": {
-              "address": "bystra 278  \nbystra podhalanska \npl",
-              "placeId": "ChIJ3VOFVT92FkcRvSDXMuGnL8s",
+              "address": "Seminarium Ojców Reformatów\nul. Ojcowska 1\nKraków",
+              "placeId": "ChIJA64AaSpaFkcR2adNcB_JwW0",
               "state": "ok",
               "stateDetails": ""
             }
@@ -594,7 +594,7 @@
           "title": "Program<br>",
           "subtitle": "Shape your future web project with sharp design and refine coded functions.",
           "_customCSS": "@import url(https://fonts.googleapis.com/css?family=Indie+Flower);\n.mbr-section-title {\n\tcolor: #b8312f;\n\tfont-family: 'Indie Flower', cursive;\n}\n.card-block P {\n\tcolor: #232323;\n\tfont-size: 13px;\n}\n.card-block DIV {\n\tcolor: #232323;\n\tfont-size: 15px;\n}\n",
-          "_customHTML": "<section class=\"mbr-section\" style=\"background-color: rgb(255, 255, 255); padding-top: 80px; padding-bottom: 40px;\">\n\n    \n\n        <div class=\"mbr-section mbr-section__container mbr-section__container--middle\">\n            <div class=\"container\">\n                <div class=\"row\">\n                    <div class=\"col-xs-12 text-xs-center\">\n                        <h3 class=\"mbr-section-title display-2 mbr-editable-content\" code-editable-id=\"47\">Program<br></h3>\n                        \n                    </div>\n                </div>\n            </div>\n        </div>\n\n\n    <div class=\"mbr-testimonials mbr-section mbr-section-nopadding\">\n        <div class=\"container\">\n            <div class=\"row\">\n\n                <div class=\"col-xs-12 col-lg-4\">\n\n                    <div class=\"mbr-testimonial card\">\n                        <div class=\"card-block mbr-editable-content\" code-editable-id=\"48\">Piątek (15 IX)<div><br></div><div>18:00 - 18:30 Kolacja</div><div>19:30 - 20:15 Zawiązanie Wspólnoty</div><div>20:15 - 21:15 Konferencja i Adoracja</div><div>21:30 - 22:00 Eucharystia (dla chętnych)</div></div>\n                        <div class=\"mbr-author card-footer\">\n                            \n                            \n                            \n                        </div>\n                    </div>\n                </div><div class=\"col-xs-12 col-lg-4\">\n\n                    <div class=\"mbr-testimonial card\">\n                        <div class=\"card-block mbr-editable-content\" code-editable-id=\"49\">Sobota (16 IX)<div><br></div><div>7:30 - 8:00 Modlitwa Poranna</div><div>8:00 - 8:30 Śniadanie</div><div>8:30 - 12:00 Blok przedpołudniowy</div><div>12:00 - 13:30 Eucharystia</div><div>13:30 - 14:00 Obiad</div><div>13:30 - 18:00 Blok popołudniowy</div><div>18:00 - 18:30 Kolacja</div><div>18:30 - 21:30 Blok wieczorny</div></div>\n                        <div class=\"mbr-author card-footer\">\n                            \n                            \n                            \n                        </div>\n                    </div>\n                </div><div class=\"col-xs-12 col-lg-4\">\n\n                    <div class=\"mbr-testimonial card\">\n                        <div class=\"card-block mbr-editable-content\" code-editable-id=\"50\">Niedziela (17 IX)<div><br></div><div>7:30 - 8:00 Modlitwa Poranna&nbsp;</div><div>8:00 - 8:30 Śniadanie</div><div>8:00 - 12:00 Blok przedpołudniowy</div><div>12:00 - 13:30 Eucharystia</div><div>13:30  - 14:00 Obiad</div></div>\n                        <div class=\"mbr-author card-footer\">\n                            \n                            \n                            \n                        </div>\n                    </div>\n                </div>\n\n            </div>\n\n        </div>\n\n    </div>\n\n</section>",
+          "_customHTML": "<section class=\"mbr-section\" style=\"background-color: rgb(255, 255, 255); padding-top: 80px; padding-bottom: 0px;\">\n\n    \n\n        <div class=\"mbr-section mbr-section__container mbr-section__container--middle\">\n            <div class=\"container\">\n                <div class=\"row\">\n                    <div class=\"col-xs-12 text-xs-center\">\n                        <h3 class=\"mbr-section-title display-2 mbr-editable-content\" code-editable-id=\"22\">Program<br></h3>\n                        \n                    </div>\n                </div>\n            </div>\n        </div>\n</section>",
           "_PHPplaceholders": [],
           "_JSplaceholders": [],
           "_customTemplate": true,
@@ -611,7 +611,7 @@
             "paddingBottom": "2",
             "bgColor": "#fff"
           },
-          "buttons": " <a data-app-btn=\"true\" class=\"btn btn-black btn-black-outline\" href=\"downloads/program.pdf\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">POBIERZ SZCZEGÓŁOWY PLAN</a>"
+          "buttons": " <a data-app-btn=\"true\" class=\"btn btn-black btn-black-outline\" href=\"https://docs.google.com/document/d/1GxJwd8u8ATWj4JSdMkdgnq3_59eM1o4qMxpaLCqUEc0/edit#heading=h.7b4imseswdc4\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">SZCZEGÓŁOWY PLAN</a>"
         },
         {
           "_tags": [
@@ -649,7 +649,7 @@
             "paddingBottom": 1,
             "bgColor": "#fff"
           },
-          "text": "<p><b>Opłata za rekolekcje wynosi 140 zł od osoby.</b> <br>Jeśli brak środków finansowych miłaby by być przeszkodą w uczestnictwie prosimy o kontakt.</p><p><br></p><p><span style=\"font-size: 1.07rem; line-height: 1.5;\"><b>Prosimy o wpłatę zaliczki w wysokości 50 zł -</b> <br>Wpłata zaliczki jest potwierdzeniem woli uczestniczenia w rekolekcjach.</span></p><p><span style=\"font-size: 1.07rem; line-height: 1.5;\"><br></span></p><p><span style=\"font-size: 1.07rem; line-height: 1.5;\">Diakonia Ruchu Światło-Życie Archidiecezji Krakowskiej”</span><br></p><p>\u001bNumer konta: 84 1060 0076 0000 3280 0004 0146</p><p>Tytułem: zaliczka na Rekolekcje On / Off, imię i nazwisko.<br></p><p><span style=\"font-size: 1.07rem; line-height: 1.5;\">Zgłoszenia bez wpłaty nie gwarantują miejsca na liście uczestników.</span><br></p><p><br></p>"
+          "text": "<p><b>Opłata za rekolekcje wynosi 30 zł od osoby.</b> </p><p>Zapraszamy osoby powyżej 17 roku życia.<br>Jeśli brak środków finansowych miłaby by być przeszkodą w uczestnictwie prosimy o kontakt..</p><p><br></p>"
         },
         {
           "_customTemplate": true,
